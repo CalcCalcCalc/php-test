@@ -26,6 +26,6 @@ echo "<p>True looks like this: ".$trueBool.", and false looks like this: ".$fals
 
 //We can nest variables, but is not common
 $nestedVariable = "name";
-echo "<p>".$$nestedVariable"</p>;
+echo "<p>".$$nestedVariable."</p>";
 
 ?>
