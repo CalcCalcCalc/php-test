@@ -1,5 +1,16 @@
 <!-- <p>Prime number validator</p> -->
 
+<form method="post">
+
+  <input name="name" type="text">
+
+  <input name="password" type="text">
+
+  <input type="submit" value="Go!">
+
+</form>
+
+
 <?php
 
   $users = array("Alex" => "abc123", "Jeff" => "xyz987");
@@ -11,20 +22,10 @@
     foreach($users as $key => $value){
       if (($key == $name) && ($value == $password)){
         echo "<p>Welcome ".$name."</p>";
-        break;
+        return;
       }
     }
     echo "<p>Please enter a correct username an password</p>";
   }
 
 ?>
-
-<form method="post">
-
-  <input name="name" type="text">
-
-  <input name="password" type="text">
-
-  <input type="submit" value="Go!">
-
-</form>
