@@ -7,12 +7,12 @@ $name = "Alec";
 echo $name;
 
 // variables are parsed inside strings
-echo "My name is $name";
+echo "</br><p>My name is $name</p>";
 
 // Strings can be concatinated using "."
 $string1 = "First string";
 $string2 = "Second string";
-echo $string1.". ".$string2;
+echo "<p>".$string1.". ".$string2."</p>";
 
 
 
