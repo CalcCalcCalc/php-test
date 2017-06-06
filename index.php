@@ -1,5 +1,14 @@
 <!-- <p>Prime number validator</p> -->
 
+<form>
+
+  <input name="number" type="text">
+
+  <input type="submit" value="Go!">
+
+</form>
+
+
 <?php
 
 
@@ -33,11 +42,3 @@
   /*}*/
 
  ?>
-
-<form>
-
-  <input name="number" type="text">
-
-  <input type="submit" value="Go!">
-
-</form>
