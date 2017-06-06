@@ -6,7 +6,7 @@ foreach ($family as $key => $value) {
 
   $family[$key] = $value." Smith";
 
-  echo $key." ".$value." </br>";
+  echo $family[$key]" </br>";
 }
 
 ?>
