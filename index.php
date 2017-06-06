@@ -6,7 +6,7 @@
 
   $body = "I think you're awesome";
 
-  $headers = "From: alecdsstone@gmail.com";
+  $headers = "From: donotreply@heroku.com";
 
   if (mail($emailto, $subject, $body, $headers)){
     echo "The email was sent successfully!";
