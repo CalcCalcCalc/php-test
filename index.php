@@ -1,4 +1,4 @@
-<p>Prime number validator</p>
+<!-- <p>Prime number validator</p> -->
 
 <?php
 
@@ -6,7 +6,7 @@
 
   if (empty($_GET)){
     echo "<p>Please enter a number.<p/>";
-  } else {
+  } /*else {
     $num = $_GET["number"];
     $trueText = "<p>".$num." is prime.</p>";
     $falseText = "<p>".$num." is NOT prime.</p>";
@@ -30,7 +30,7 @@
     }
     echo $trueText;
 
-  }
+  }*/
 
  ?>
 
