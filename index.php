@@ -1,9 +1,9 @@
 <?php
 
-$family = array("Howard", "Beth", "Jim", "Christine");
+$family = array("Howard" => "Smith", "Beth" => "Jones", "Jim" => "Simpson", "Christine" => "Clark");
 
 foreach ($family as $key => $value) {
-  echo "List item ".$key." is ".$value." ";
+  echo $key." ".$value.". </br>";
 }
 
 ?>
