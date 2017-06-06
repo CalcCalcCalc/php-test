@@ -1,12 +1,13 @@
 <?php
 
-$family = array("Howard", "Beth", "Jim", "Christine");
+$i = 0;
 
-foreach ($family as $key => $value) {
+while ($i < 10) {
 
-  $family[$key] = $value." Smith";
+  echo $i."</br>";
 
-  echo $family[$key]." </br>";
+  $i++;
+  
 }
 
 ?>
