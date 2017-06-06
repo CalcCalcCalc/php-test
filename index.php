@@ -1,15 +1,7 @@
 <?php
 
-$i = 1;
+  print_r($_GET);
 
-while ($i <= 10) {
+  echo $_GET("name");
 
-  $j = $i * 5;
-
-  echo $j."</br>";
-
-  $i++;
-
-}
-
-?>
+ ?>
