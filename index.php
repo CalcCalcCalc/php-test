@@ -10,8 +10,8 @@ echo $name;
 echo "</br><p>My name is a variable inside a string and that name is $name</p>";
 
 // Strings can be concatinated using "."
-$string1 = "<span style="color: red">This is one string</span>";
-$string2 = "<span style="color: green">concatinated with a second string<span>";
+$string1 = "<span style='color: red'>This is one string</span>";
+$string2 = "<span style='color: green'>concatinated with a second string<span>";
 echo "<p>".$string1.". ".$string2."</p>";
 
 //calculation is simple
