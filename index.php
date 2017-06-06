@@ -1,16 +1,42 @@
+<p>Prime number validator</p>
+
 <?php
 
-  print_r($_GET);
 
-  echo $_GET["name"];
+
+  if (empty($_GET)){
+    echo "<p>Please enter a number.<p/>";
+  } else {
+    $num = $_GET["number"];
+    $trueText = "<p>".$num." is prime.</p>";
+    $falseText = "<p>".$num." is NOT prime.</p>";
+    if ($num <= 1){
+      echo $falseText;
+      return;
+    } elseif ($num <= 3){
+      echo $trueText;
+      return;
+    } elseif (($num % 2 == 0) || ($num % 3 == 0)){
+      echo $falseText;
+      return;
+    }
+    $i = 5;
+    while ($i * $i <= $num){
+      if (($num % i == 0) || ($num % ($i + 2) == 0)){
+        echo $falseText;
+        return;
+      }
+      $i = $i + 6;
+    }
+    echo $trueText;
+
+  }
 
  ?>
 
-<p>What's your name?</p>
-
 <form>
 
-  <input name="name" type="test">
+  <input name="number" type="text">
 
   <input type="submit" value="Go!">
 
