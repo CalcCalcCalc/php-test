@@ -22,10 +22,10 @@ echo "<p>The result of the calculation is ".$calculation."</p>";
 //booleans are either 1 (true) or " " (false)
 $trueBool = true;
 $falseBool = false;
-echo "<p>True looks like this: ".$trueBool.", and false looks like this: ".$falseBool;
+echo "<p>True looks like this: ".$trueBool.", and false looks like this: ".$falseBool."</p>";
 
 //We can nest variables, but is not common
 $nestedVariable = "name";
-echo $$nestedVariable;
+echo "<p>".$$nestedVariable"</p>;
 
 ?>
