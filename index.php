@@ -2,6 +2,6 @@
 
 $name = "Alec";
 
-echo name;
+echo $name;
 
 ?>
