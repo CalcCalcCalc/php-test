@@ -1,9 +1,12 @@
 <?php
 
-$family = array("Howard" => "Smith", "Beth" => "Jones", "Jim" => "Simpson", "Christine" => "Clark");
+$family = array("Howard", "Beth", "Jim", "Christine");
 
 foreach ($family as $key => $value) {
-  echo $key." ".$value.". </br>";
+
+  $family($key) = $value." Smith";
+
+  echo $key." ".$value." </br>";
 }
 
 ?>
