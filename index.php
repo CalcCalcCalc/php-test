@@ -1,11 +1,9 @@
 <?php
 
-$age = 17;
+$family = array("Howard", "Beth", "Jim", "Christine");
 
-if ($age >= 18){
-  echo "You are old enough.";
-} else {
-  echo "You are not old enough";
+foreach ($family as $key => $value) {
+  ehco "Array item ".$key." is ".$value;
 }
 
 ?>
