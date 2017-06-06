@@ -1,5 +1,7 @@
 <?php
 
-  echo "Hello World;
+$name = "Alec";
+
+echo name;
 
 ?>
