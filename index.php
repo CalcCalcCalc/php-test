@@ -11,9 +11,7 @@
 
 <?php
 
-
-
-  if ($_GET["number" == false]){
+  if ($_GET["number"] == false){
     echo "<p>Please enter a number.<p/>";
   } else {
     $num = $_GET["number"];
